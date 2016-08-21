@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w(lib)
 
   spec.add_dependency "fog-core"
-  spec.add_dependency "nokogiri", "~> 1.5", ">= 1.5.11"
+  spec.add_dependency "nokogiri", "~> 1.6", ">= 1.5.11"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "turn"
